@@ -1,0 +1,2165 @@
+{
+  "sdk_commit": "fe2e186c867391ec78b301accdc91f0260ad0ff3",
+  "entries": [
+    {
+      "id": "GetMcAction",
+      "label": "运动模式查询",
+      "category": "运动",
+      "kind": "service",
+      "write": false,
+      "path": "/aimdk_5Fmsgs/srv/GetMcAction",
+      "type": "aimdk_msgs/srv/GetMcAction",
+      "schema": "GetMcAction.Request",
+      "source": "vendor-source"
+    },
+    {
+      "id": "SetMcAction",
+      "label": "运动模式设置",
+      "category": "运动",
+      "kind": "service",
+      "write": true,
+      "path": "/aimdk_5Fmsgs/srv/SetMcAction",
+      "type": "aimdk_msgs/srv/SetMcAction",
+      "schema": "SetMcAction.Request",
+      "source": "vendor-source"
+    },
+    {
+      "id": "SetMcMotion",
+      "label": "全身动作与模型",
+      "category": "运动",
+      "kind": "service",
+      "write": true,
+      "path": "/aimdk_5Fmsgs/srv/SetMcMotion",
+      "type": "aimdk_msgs/srv/SetMcMotion",
+      "schema": "SetMcMotion.Request",
+      "source": "vendor-source"
+    },
+    {
+      "id": "SetMcPresetMotion",
+      "label": "预设动作",
+      "category": "运动",
+      "kind": "service",
+      "write": true,
+      "path": "/aimdk_5Fmsgs/srv/SetMcPresetMotion",
+      "type": "aimdk_msgs/srv/SetMcPresetMotion",
+      "schema": "SetMcPresetMotion.Request",
+      "source": "vendor-source"
+    },
+    {
+      "id": "SetMcInputSource",
+      "label": "控制输入源设置",
+      "category": "运动",
+      "kind": "service",
+      "write": true,
+      "path": "/aimdk_5Fmsgs/srv/SetMcInputSource",
+      "type": "aimdk_msgs/srv/SetMcInputSource",
+      "schema": "SetMcInputSource.Request",
+      "source": "vendor-source"
+    },
+    {
+      "id": "GetCurrentInputSource",
+      "label": "控制输入源查询",
+      "category": "运动",
+      "kind": "service",
+      "write": false,
+      "path": "/aimdk_5Fmsgs/srv/GetCurrentInputSource",
+      "type": "aimdk_msgs/srv/GetCurrentInputSource",
+      "schema": "GetCurrentInputSource.Request",
+      "source": "vendor-source"
+    },
+    {
+      "id": "SetServo",
+      "label": "形态舵机",
+      "category": "关节",
+      "kind": "service",
+      "write": true,
+      "path": "/aimdk_5Fmsgs/srv/SetServo",
+      "type": "aimdk_msgs/srv/SetServo",
+      "schema": "SetServo.Request",
+      "source": "vendor-source"
+    },
+    {
+      "id": "PlayTts",
+      "label": "语音播报",
+      "category": "音频",
+      "kind": "service",
+      "write": true,
+      "path": "/aimdk_5Fmsgs/srv/PlayTts",
+      "type": "aimdk_msgs/srv/PlayTts",
+      "schema": "PlayTts.Request",
+      "source": "vendor-source"
+    },
+    {
+      "id": "GetVolume",
+      "label": "查询音量",
+      "category": "音频",
+      "kind": "service",
+      "write": false,
+      "path": "/aimdk_5Fmsgs/srv/GetVolume",
+      "type": "aimdk_msgs/srv/GetVolume",
+      "schema": "GetVolume.Request",
+      "source": "vendor-source"
+    },
+    {
+      "id": "SetVolume",
+      "label": "设置音量",
+      "category": "音频",
+      "kind": "service",
+      "write": true,
+      "path": "/aimdk_5Fmsgs/srv/SetVolume",
+      "type": "aimdk_msgs/srv/SetVolume",
+      "schema": "SetVolume.Request",
+      "source": "vendor-source"
+    },
+    {
+      "id": "GetMute",
+      "label": "查询静音",
+      "category": "音频",
+      "kind": "service",
+      "write": false,
+      "path": "/aimdk_5Fmsgs/srv/GetMute",
+      "type": "aimdk_msgs/srv/GetMute",
+      "schema": "GetMute.Request",
+      "source": "vendor-source"
+    },
+    {
+      "id": "SetMute",
+      "label": "设置静音",
+      "category": "音频",
+      "kind": "service",
+      "write": true,
+      "path": "/aimdk_5Fmsgs/srv/SetMute",
+      "type": "aimdk_msgs/srv/SetMute",
+      "schema": "SetMute.Request",
+      "source": "vendor-source"
+    },
+    {
+      "id": "PlayAudioFile",
+      "label": "机器人本地音频文件",
+      "category": "音频",
+      "kind": "service",
+      "write": true,
+      "path": "/aimdk_5Fmsgs/srv/PlayAudioFile",
+      "type": "aimdk_msgs/srv/PlayAudioFile",
+      "schema": "PlayAudioFile.Request",
+      "source": "vendor-source"
+    },
+    {
+      "id": "PlayEmotion",
+      "label": "表情与屏幕视频",
+      "category": "屏幕",
+      "kind": "service",
+      "write": true,
+      "path": "/aimdk_5Fmsgs/srv/PlayEmotion",
+      "type": "aimdk_msgs/srv/PlayEmotion",
+      "schema": "PlayEmotion.Request",
+      "source": "vendor-source"
+    },
+    {
+      "id": "ShutdownTask",
+      "label": "机器人关机",
+      "category": "系统",
+      "kind": "service",
+      "write": true,
+      "path": "/aimdk_5Fmsgs/srv/ShutdownTask",
+      "type": "aimdk_msgs/srv/ShutdownTask",
+      "schema": "ShutdownTask.Request",
+      "source": "vendor-source"
+    },
+    {
+      "id": "CaptureJpegImage",
+      "label": "相机单帧",
+      "category": "视觉",
+      "kind": "service",
+      "write": false,
+      "path": "/aima/hal/camera/CaptureJpegImage",
+      "type": "aimdk_msgs/srv/CaptureJpegImage",
+      "schema": "CaptureJpegImage.Request",
+      "source": "vendor-source"
+    },
+    {
+      "id": "LedStripCommand",
+      "label": "灯带样式与颜色",
+      "category": "灯光",
+      "kind": "service",
+      "write": true,
+      "path": "/aimdk_5Fmsgs/srv/LedStripCommand",
+      "type": "aimdk_msgs/srv/LedStripCommand",
+      "schema": "LedStripCommand.Request",
+      "source": "vendor-source"
+    },
+    {
+      "id": "SetNeckLight",
+      "label": "颈部灯光",
+      "category": "灯光",
+      "kind": "service",
+      "write": true,
+      "path": "/aimdk_5Fmsgs/srv/SetNeckLight",
+      "type": "aimdk_msgs/srv/SetNeckLight",
+      "schema": "SetNeckLight.Request",
+      "source": "vendor-source"
+    },
+    {
+      "id": "JointCommandArray",
+      "label": "全身底层关节",
+      "category": "关节",
+      "kind": "publish",
+      "write": true,
+      "path": "/aima/hal/joint/command",
+      "type": "aimdk_msgs/msg/JointCommandArray",
+      "schema": "JointCommandArray",
+      "qos": "best_effort",
+      "rate_hz": 500,
+      "source": "vendor-source"
+    },
+    {
+      "id": "McCustomJointCommand",
+      "label": "自定义上肢关节",
+      "category": "关节",
+      "kind": "publish",
+      "write": true,
+      "path": "/aima/mc/custom/joint/command",
+      "type": "aimdk_msgs/msg/McCustomJointCommand",
+      "schema": "McCustomJointCommand",
+      "qos": "best_effort",
+      "rate_hz": 100,
+      "source": "vendor-source"
+    },
+    {
+      "id": "JointStateArray",
+      "label": "关节状态反馈",
+      "category": "关节",
+      "kind": "subscribe",
+      "write": false,
+      "path": "/aima/hal/joint/state",
+      "type": "aimdk_msgs/msg/JointStateArray",
+      "schema": "JointStateArray",
+      "qos": "best_effort",
+      "rate_hz": 0,
+      "source": "vendor-source"
+    },
+    {
+      "id": "McLocomotionVelocity",
+      "label": "原始速度指令",
+      "category": "运动",
+      "kind": "publish",
+      "write": true,
+      "path": "/aima/mc/locomotion/velocity",
+      "type": "aimdk_msgs/msg/McLocomotionVelocity",
+      "schema": "McLocomotionVelocity",
+      "qos": "reliable",
+      "rate_hz": 50,
+      "source": "vendor-source"
+    },
+    {
+      "id": "AudioCapture",
+      "label": "ROS 音频采集",
+      "category": "音频",
+      "kind": "subscribe",
+      "write": false,
+      "path": "/aima/hal/audio/capture",
+      "type": "aimdk_msgs/msg/AudioCapture",
+      "schema": "AudioCapture",
+      "qos": "reliable",
+      "rate_hz": 0,
+      "source": "vendor-documentation-supplement"
+    },
+    {
+      "id": "AudioPlayback",
+      "label": "ROS 音频回放",
+      "category": "音频",
+      "kind": "publish",
+      "write": true,
+      "path": "/aima/hal/audio/playback",
+      "type": "aimdk_msgs/msg/AudioPlayback",
+      "schema": "AudioPlayback",
+      "qos": "reliable",
+      "rate_hz": 0,
+      "source": "vendor-documentation-supplement"
+    },
+    {
+      "id": "AudioDeviceInfoList",
+      "label": "音频设备列表",
+      "category": "音频",
+      "kind": "subscribe",
+      "write": false,
+      "path": "/aima/hal/audio/audio_device_list",
+      "type": "aimdk_msgs/msg/AudioDeviceInfoList",
+      "schema": "AudioDeviceInfoList",
+      "qos": "best_effort",
+      "rate_hz": 0,
+      "source": "vendor-source"
+    },
+    {
+      "id": "TouchState",
+      "label": "触摸状态",
+      "category": "传感器",
+      "kind": "subscribe",
+      "write": false,
+      "path": "/aima/hal/touch/state",
+      "type": "aimdk_msgs/msg/TouchState",
+      "schema": "TouchState",
+      "qos": "best_effort",
+      "rate_hz": 0,
+      "source": "vendor-source"
+    },
+    {
+      "id": "Bms",
+      "label": "电池状态",
+      "category": "传感器",
+      "kind": "subscribe",
+      "write": false,
+      "path": "/aima/hal/bms/state",
+      "type": "aimdk_msgs/msg/Bms",
+      "schema": "Bms",
+      "qos": "best_effort",
+      "rate_hz": 0,
+      "source": "vendor-source"
+    },
+    {
+      "id": "NeckLightState",
+      "label": "颈部灯光状态",
+      "category": "灯光",
+      "kind": "subscribe",
+      "write": false,
+      "path": "/aima/hal/neck_light/state",
+      "type": "aimdk_msgs/msg/NeckLightState",
+      "schema": "NeckLightState",
+      "qos": "best_effort",
+      "rate_hz": 0,
+      "source": "vendor-source",
+      "aliases": [
+        "/aimdk_5Fmsgs/msg/NeckLightState"
+      ],
+      "note": "厂家目录与详情给出不同话题名，订阅时同时兼容两者。"
+    },
+    {
+      "id": "RTSP",
+      "label": "双目视频",
+      "category": "视觉",
+      "kind": "transport",
+      "write": false,
+      "path": "rtsp://<robot>:2554/live_<camera_id>",
+      "type": "RTSP",
+      "source": "vendor-documentation"
+    },
+    {
+      "id": "PulseCapture",
+      "label": "TCP 麦克风监听",
+      "category": "音频",
+      "kind": "transport",
+      "write": false,
+      "path": "tcp://<robot>:4713",
+      "type": "PulseAudio native",
+      "source": "vendor-documentation"
+    },
+    {
+      "id": "TcpAudioPlayback",
+      "label": "上传音频到扬声器",
+      "category": "音频",
+      "kind": "transport",
+      "write": true,
+      "path": "tcp://<robot>:6001",
+      "type": "PCM s16le / 48000 Hz / mono",
+      "source": "vendor-documentation"
+    }
+  ],
+  "definitions": {
+    "AudioCapture": {
+      "fields": [
+        {
+          "name": "stamps",
+          "type": "builtin_interfaces/Time",
+          "description": "时间戳"
+        },
+        {
+          "name": "mic_channels",
+          "type": "uint8",
+          "description": "麦克风通道数"
+        },
+        {
+          "name": "ref_channels",
+          "type": "uint8",
+          "description": "回采信号通道数"
+        },
+        {
+          "name": "info",
+          "type": "AudioInfo",
+          "description": "音频格式"
+        },
+        {
+          "name": "data",
+          "type": "AudioData",
+          "description": "音频数据"
+        },
+        {
+          "name": "pkg_name",
+          "type": "string",
+          "description": "标识发送方来源"
+        },
+        {
+          "name": "mic_source",
+          "type": "uint32",
+          "description": "0-内置麦 1-外置麦"
+        }
+      ],
+      "constants": {}
+    },
+    "AudioData": {
+      "fields": [
+        {
+          "name": "data",
+          "type": "uint8[]",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "AudioDeviceInfo": {
+      "fields": [
+        {
+          "name": "id",
+          "type": "int32",
+          "description": "-1: auto mode"
+        },
+        {
+          "name": "device_addr",
+          "type": "string",
+          "description": "builtin_mic builtin_speaker"
+        },
+        {
+          "name": "device_type",
+          "type": "string",
+          "description": "builtin bluetooth"
+        },
+        {
+          "name": "device_name",
+          "type": "string",
+          "description": "snd_card_name bluetooth"
+        },
+        {
+          "name": "is_sel",
+          "type": "bool",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "AudioDeviceInfoList": {
+      "fields": [
+        {
+          "name": "input_list",
+          "type": "AudioDeviceInfo[]",
+          "description": ""
+        },
+        {
+          "name": "output_list",
+          "type": "AudioDeviceInfo[]",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "AudioFile": {
+      "fields": [
+        {
+          "name": "pkg_name",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "file_name",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "file_path",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "info",
+          "type": "AudioInfo",
+          "description": ""
+        },
+        {
+          "name": "priority",
+          "type": "uint32",
+          "description": ""
+        },
+        {
+          "name": "priority_weight",
+          "type": "uint32",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "AudioInfo": {
+      "fields": [
+        {
+          "name": "channels",
+          "type": "uint8",
+          "description": ""
+        },
+        {
+          "name": "sample_rate",
+          "type": "uint32",
+          "description": ""
+        },
+        {
+          "name": "size",
+          "type": "uint32",
+          "description": ""
+        },
+        {
+          "name": "sample_format",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "coding_format",
+          "type": "string",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "AudioPlayback": {
+      "fields": [
+        {
+          "name": "stamps",
+          "type": "builtin_interfaces/Time",
+          "description": "时间戳"
+        },
+        {
+          "name": "info",
+          "type": "AudioInfo",
+          "description": "音频格式"
+        },
+        {
+          "name": "data",
+          "type": "AudioData",
+          "description": "音频数据"
+        },
+        {
+          "name": "pkg_name",
+          "type": "string",
+          "description": "标识发送方来源"
+        },
+        {
+          "name": "token_id",
+          "type": "string",
+          "description": "可选项，用于清理播放缓存（打断播放）"
+        }
+      ],
+      "constants": {}
+    },
+    "Bms": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "MessageHeader",
+          "description": "数据头"
+        },
+        {
+          "name": "manufacturer",
+          "type": "string",
+          "description": "厂家信息"
+        },
+        {
+          "name": "serial_number",
+          "type": "string",
+          "description": "序列号"
+        },
+        {
+          "name": "protocol_version",
+          "type": "string",
+          "description": "协议版本"
+        },
+        {
+          "name": "hardware_version",
+          "type": "string",
+          "description": "硬件版本"
+        },
+        {
+          "name": "software_version",
+          "type": "string",
+          "description": "软件版本"
+        },
+        {
+          "name": "power_request",
+          "type": "uint16",
+          "description": ""
+        },
+        {
+          "name": "status",
+          "type": "uint32",
+          "description": ""
+        },
+        {
+          "name": "balance_line_resistance",
+          "type": "uint16",
+          "description": "电池包均衡线电阻（单位：mΩ）"
+        },
+        {
+          "name": "voltage",
+          "type": "uint32",
+          "description": "电池包电压（单位：mV）"
+        },
+        {
+          "name": "current",
+          "type": "int32",
+          "description": "电池包电流（单位：mA，充电为正，放电为负）"
+        },
+        {
+          "name": "power",
+          "type": "int32",
+          "description": "电池包输出功率（单位：mW）"
+        },
+        {
+          "name": "temperature",
+          "type": "float32",
+          "description": "电池包当前温度（单位：℃）"
+        },
+        {
+          "name": "remaining_capacity",
+          "type": "uint32",
+          "description": "当前电池剩余容量（单位：mAh）"
+        },
+        {
+          "name": "remaining_capacity_percentage",
+          "type": "uint8",
+          "description": "当前电池剩余容量百分比（单位：％）"
+        },
+        {
+          "name": "cycle_count",
+          "type": "uint16",
+          "description": "当前电池包完整循环次数（单位：次）"
+        },
+        {
+          "name": "cycle_total_capacity",
+          "type": "uint32",
+          "description": "总充放电容量累计（单位：mAh）"
+        }
+      ],
+      "constants": {}
+    },
+    "CommonRequest": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "RequestHeader",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "CommonResponse": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "ResponseHeader",
+          "description": ""
+        },
+        {
+          "name": "status",
+          "type": "CommonState",
+          "description": ""
+        },
+        {
+          "name": "message",
+          "type": "string",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "CommonState": {
+      "fields": [
+        {
+          "name": "value",
+          "type": "int32",
+          "description": ""
+        },
+        {
+          "name": "reason",
+          "type": "uint32",
+          "description": ""
+        }
+      ],
+      "constants": {
+        "UNKNOWN": 0,
+        "SUCCESS": 1,
+        "FAILURE": 2,
+        "ABORTED": 3,
+        "TIMEOUT": 4,
+        "INVALID": 5,
+        "IN_MANUAL": 6,
+        "NOT_READY": 100,
+        "PENDING": 200,
+        "CREATED": 300,
+        "RUNNING": 400,
+        "REASON_SUCCESS": 0,
+        "REASON_OPENBOX": 1,
+        "REASON_STARTUP_CHECK": 2,
+        "REASON_SHUTDOWN": 3,
+        "REASON_FROM": 4,
+        "REASON_LOW_BATTERY": 5,
+        "REASON_CHARGE": 6,
+        "REASON_NO_WHITELIST": 7,
+        "REASON_HDS": 8,
+        "REASON_ACTION": 9,
+        "REASON_OBSTACLE_FORWARD": 10,
+        "REASON_OBSTACLE_BACK": 11,
+        "REASON_OBSTACLE_LEFT": 12,
+        "REASON_OBSTACLE_RIGHT": 13,
+        "REASON_OBSTACLE_UP": 14,
+        "REASON_TASK_RUNNING": 15,
+        "REASON_TARGET_STATE": 16,
+        "REASON_NOT_FOUND": 17,
+        "REASON_NO_SKILL_LIST": 18,
+        "REASON_FORM_MIS_MATCH": 19,
+        "REASON_ACTION_NOT_MATCH": 20,
+        "REASON_ACTION_BLACKLISTED": 21,
+        "REASON_NO_TRANSFER_PATH": 22,
+        "REASON_NO_ELIGIBLE_SKILL": 23,
+        "REASON_INDOOR_WHOLE_BODY": 24,
+        "REASON_ENGINE_NOT_READY": 25,
+        "REASON_NOT_SUPPORTED": 26,
+        "REASON_STAND_UP_IN_PROGRESS": 27,
+        "REASON_NOT_INTERRUPTIBLE": 28,
+        "REASON_INTERRUPT_INVALID": 29,
+        "REASON_TRANSFORM_CONDITION": 30
+      }
+    },
+    "CommonTaskResponse": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "ResponseHeader",
+          "description": ""
+        },
+        {
+          "name": "task_id",
+          "type": "uint64",
+          "description": ""
+        },
+        {
+          "name": "state",
+          "type": "CommonState",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "JointCommand": {
+      "fields": [
+        {
+          "name": "name",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "position",
+          "type": "float64",
+          "description": ""
+        },
+        {
+          "name": "velocity",
+          "type": "float64",
+          "description": ""
+        },
+        {
+          "name": "effort",
+          "type": "float64",
+          "description": ""
+        },
+        {
+          "name": "stiffness",
+          "type": "float64",
+          "description": ""
+        },
+        {
+          "name": "damping",
+          "type": "float64",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "JointCommandArray": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "MessageHeader",
+          "description": ""
+        },
+        {
+          "name": "joints",
+          "type": "JointCommand[]",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "JointState": {
+      "fields": [
+        {
+          "name": "name",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "position",
+          "type": "float64",
+          "description": ""
+        },
+        {
+          "name": "velocity",
+          "type": "float64",
+          "description": ""
+        },
+        {
+          "name": "effort",
+          "type": "float64",
+          "description": ""
+        },
+        {
+          "name": "coil_temp",
+          "type": "uint8",
+          "description": ""
+        },
+        {
+          "name": "motor_temp",
+          "type": "uint8",
+          "description": ""
+        },
+        {
+          "name": "motor_vol",
+          "type": "uint8",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "JointStateArray": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "MessageHeader",
+          "description": ""
+        },
+        {
+          "name": "joints",
+          "type": "JointState[]",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "JpegImage": {
+      "fields": [
+        {
+          "name": "camera_id",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "device",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "width",
+          "type": "uint32",
+          "description": ""
+        },
+        {
+          "name": "height",
+          "type": "uint32",
+          "description": ""
+        },
+        {
+          "name": "framerate",
+          "type": "uint32",
+          "description": ""
+        },
+        {
+          "name": "exposure",
+          "type": "uint32",
+          "description": "曝光值"
+        },
+        {
+          "name": "gain",
+          "type": "uint32",
+          "description": "模拟增益"
+        },
+        {
+          "name": "image",
+          "type": "sensor_msgs/CompressedImage",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "McAction": {
+      "fields": [
+        {
+          "name": "value",
+          "type": "int32",
+          "description": ""
+        }
+      ],
+      "constants": {
+        "PASSIVE_DEFAULT": 1,
+        "DAMPING_DEFAULT": 2,
+        "QUAD_LIE_DOWN": 3,
+        "QUADRUPED_TO_BIPED": 10,
+        "QUADRUPED_TO_BIPED_ROTATE": 11,
+        "QUADRUPED_TO_BIPED_FRONTFLIP": 12,
+        "BIPED_TO_QUADRUPED": 20,
+        "BIPED_TO_QUADRUPED_ROTATE": 21,
+        "BIPED_TO_QUADRUPED_FRONTFLIP": 22,
+        "QUADRUPED_RECOVERY": 100,
+        "QUADRUPED_STAND_DEFAULT": 101,
+        "QUADRUPED_LOCOMOTION_DEFAULT": 102,
+        "QUADRUPED_LOCOMOTION_RUN": 112,
+        "QUADRUPED_LOCOMOTION_TERRAIN": 103,
+        "QUADRUPED_LOCOMOTION_BIONIC": 104,
+        "QUADRUPED_LOCOMOTION_FRONTFLIP": 105,
+        "QUADRUPED_LOCOMOTION_BACKFLIP": 106,
+        "QUADRUPED_LOCOMOTION_HANDSHAKE": 107,
+        "QUADRUPED_LOCOMOTION_SIT": 108,
+        "QUADRUPED_LOCOMOTION_DANCE": 109,
+        "QUADRUPED_GET_DOWN_DEFAULT": 110,
+        "QUADRUPED_SIT_DOWN_DEFAULT": 111,
+        "QUADRUPED_LOCOMOTION_PRIDE": 113,
+        "QUADRUPED_LOCOMOTION_PLEASURE": 114,
+        "QUADRUPED_READY_STAND_DEFAULT": 115,
+        "QUADRUPED_LOCOMOTION_JUMP": 116,
+        "QUADRUPED_LOCOMOTION_STRETCH": 117,
+        "QUADRUPED_PUSH_UP": 118,
+        "QUADRUPED_MIMIC": 119,
+        "QUADRUPED_CROUCH_DEFAULT": 120,
+        "QUADRUPED_LOCOMOTION_STEP": 121,
+        "BIPED_RECOVERY": 200,
+        "BIPED_STAND_DEFAULT": 201,
+        "BIPED_LOCOMOTION_DEFAULT": 202,
+        "BIPED_LOCOMOTION_TERRAIN": 203,
+        "BIPED_LOCOMOTION_ROTATE_LOCAL": 204,
+        "BIPED_LOCOMOTION_MOONWALK": 206,
+        "BIPED_LOCOMOTION_RUN": 207,
+        "BIPED_MIMIC": 208,
+        "BIPED_LOCOMOTION_WBC": 300,
+        "BIPED_LOCOMOTION_ANIMATION": 301,
+        "BIPED_RECORD_UPPER": 302,
+        "BIPED_GIMBAL": 303,
+        "BIPED_NPZ_MIMIC": 304,
+        "STORE_DEFAULT": 1001,
+        "BIPED_WALK_RUN": 1002,
+        "MIMIC": 1003,
+        "MIMIC_LINKCRAFT": 1004,
+        "BIPED_WHOLE_BODY_CTRL": 1005,
+        "MIMIC_OPENSOURCE": 1006,
+        "STAND_UP": 1007,
+        "LYING_DEFAULT": 1008,
+        "LIE_FACE_DOWN": 1009,
+        "LIE_FACE_UP": 1010,
+        "BIPED_QUIET_WALK": 1011,
+        "BIPED_BLIND_TERRAIN": 1012,
+        "BIPED_SIT_DOWN": 1013,
+        "BIPED_CUSTOM_UPPER": 1014,
+        "BIPED_RUN": 1015,
+        "BIPED_TAKE_SEAT": 1016,
+        "BIPED_LEAVE_SEAT": 1017
+      }
+    },
+    "McActionCommand": {
+      "fields": [
+        {
+          "name": "action",
+          "type": "McAction",
+          "description": ""
+        },
+        {
+          "name": "action_desc",
+          "type": "string",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "McActionInfo": {
+      "fields": [
+        {
+          "name": "current_action",
+          "type": "McAction",
+          "description": ""
+        },
+        {
+          "name": "source",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "action_desc",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "status",
+          "type": "McActionStatus",
+          "description": ""
+        },
+        {
+          "name": "switch_ready",
+          "type": "bool",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "McActionStatus": {
+      "fields": [
+        {
+          "name": "value",
+          "type": "int32",
+          "description": ""
+        }
+      ],
+      "constants": {
+        "IDLE": 0,
+        "RUNNING": 100,
+        "TRANSITION": 200
+      }
+    },
+    "McControlArea": {
+      "fields": [
+        {
+          "name": "value",
+          "type": "int32",
+          "description": ""
+        }
+      ],
+      "constants": {
+        "NONE": 0,
+        "LEFT_HAND": 1,
+        "RIGHT_HAND": 2,
+        "HEAD": 4,
+        "WAIST": 8
+      }
+    },
+    "McCustomJointCommand": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "MessageHeader",
+          "description": ""
+        },
+        {
+          "name": "joints",
+          "type": "JointCommand[]",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "McInputAction": {
+      "fields": [
+        {
+          "name": "value",
+          "type": "int32",
+          "description": ""
+        }
+      ],
+      "constants": {
+        "INPUTACTION_ADD": 1001,
+        "INPUTACTION_MODIFY": 1002,
+        "INPUTACTION_DELETE": 1003,
+        "INPUTACTION_ENABLE": 2001,
+        "INPUTACTION_DISABLE": 2002
+      }
+    },
+    "McInputSource": {
+      "fields": [
+        {
+          "name": "name",
+          "type": "string",
+          "description": "输入源名称（rc/vr/app_proxy/interaction/pnc）"
+        },
+        {
+          "name": "priority",
+          "type": "int32",
+          "description": "输入源优先级(0-100)"
+        },
+        {
+          "name": "timeout",
+          "type": "int32",
+          "description": "超时时间(ms), 默认 1000 ms"
+        }
+      ],
+      "constants": {}
+    },
+    "McLocomotionVelocity": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "MessageHeader",
+          "description": ""
+        },
+        {
+          "name": "source",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "forward_velocity",
+          "type": "float64",
+          "description": ""
+        },
+        {
+          "name": "lateral_velocity",
+          "type": "float64",
+          "description": ""
+        },
+        {
+          "name": "angular_velocity",
+          "type": "float64",
+          "description": ""
+        },
+        {
+          "name": "pitch_velocity",
+          "type": "float64",
+          "description": ""
+        },
+        {
+          "name": "level",
+          "type": "float64",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "McPresetMotion": {
+      "fields": [
+        {
+          "name": "value",
+          "type": "int32",
+          "description": ""
+        }
+      ],
+      "constants": {
+        "DEFAULT_POS": 0,
+        "RIGHT_ARM_WAVE": 1001,
+        "RIGHT_ARM_HANDSHAKE": 1002,
+        "RIGHT_ARM_HANDSHAKE_FOR_1D5METER": 1003,
+        "LEFT_ARM_WAVE": 1011,
+        "LEFT_ARM_HANDSHAKE": 1012,
+        "LEFT_ARM_HANDSHAKE_FOR_1D5METER": 1013,
+        "BOTH_HANDS_MAKE_HEART": 2001,
+        "BOTH_HANDS_ACTION_HAPPY": 2002,
+        "BOTH_HANDS_ACTION_TALKING": 2003,
+        "T1_TALK1": 2004,
+        "T1_TALK2": 2005,
+        "T1_TALK3": 2006,
+        "T1_TALK4": 2007,
+        "T1_TALK5": 2008,
+        "T1_TALK6": 2009,
+        "PHOTO_POSE_1": 2011,
+        "PHOTO_POSE_2": 2012,
+        "PHOTO_POSE_3": 2013,
+        "PHOTO_POSE_4": 2014,
+        "PHOTO_THREE_SHOT": 2020,
+        "Q_BECKON": 3001,
+        "Q_SHAKE_HANDS": 3002,
+        "Q_BUMP_FISTS": 3003,
+        "Q_WAVE_HAND": 3004,
+        "Q_SHOW_HAPPINESS": 3005,
+        "Q_MAKE_HEART": 3007,
+        "Q_CHEER_ON": 3008,
+        "Q_STRETCH": 3010,
+        "Q_SPEAK_A": 3012,
+        "Q_SPEAK_B": 3013,
+        "Q_SPEAK_C": 3014,
+        "Q_HUG": 3018,
+        "Q_REFUSE": 3021,
+        "Q_DANCE_A": 3046,
+        "Q_DANCE_B": 3047,
+        "Q_DANCE_C": 3048
+      }
+    },
+    "McTaskSource": {
+      "fields": [
+        {
+          "name": "value",
+          "type": "int32",
+          "description": ""
+        }
+      ],
+      "constants": {
+        "UNKNOWN": 0,
+        "APP": 1,
+        "CLOUD": 2,
+        "RC": 3,
+        "SDK_RPC": 4,
+        "AGENT": 5,
+        "TASK_ENGINE": 6,
+        "MC_INTERNAL": 7,
+        "INSTA360": 8,
+        "OTHER": 255
+      }
+    },
+    "MessageHeader": {
+      "fields": [
+        {
+          "name": "stamp",
+          "type": "builtin_interfaces/Time",
+          "description": ""
+        },
+        {
+          "name": "frame_id",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "sequence",
+          "type": "uint32",
+          "description": ""
+        },
+        {
+          "name": "meas_stamp",
+          "type": "builtin_interfaces/Time",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "NeckLightState": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "MessageHeader",
+          "description": "消息头信息"
+        },
+        {
+          "name": "enable",
+          "type": "bool",
+          "description": ""
+        },
+        {
+          "name": "brightness",
+          "type": "uint8",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "PlayTtsRequest": {
+      "fields": [
+        {
+          "name": "text",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "priority_level",
+          "type": "TtsPriorityLevel",
+          "description": ""
+        },
+        {
+          "name": "priority_weight",
+          "type": "uint32",
+          "description": ""
+        },
+        {
+          "name": "domain",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "trace_id",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "is_interrupted",
+          "type": "bool",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "PlayTtsResponse": {
+      "fields": [
+        {
+          "name": "text",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "priority_level",
+          "type": "TtsPriorityLevel",
+          "description": ""
+        },
+        {
+          "name": "priority_weight",
+          "type": "uint32",
+          "description": ""
+        },
+        {
+          "name": "domain",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "trace_id",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "is_success",
+          "type": "bool",
+          "description": ""
+        },
+        {
+          "name": "error_message",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "estimated_duration",
+          "type": "uint32",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "RequestHeader": {
+      "fields": [
+        {
+          "name": "stamp",
+          "type": "builtin_interfaces/Time",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "ResponseHeader": {
+      "fields": [
+        {
+          "name": "stamp",
+          "type": "builtin_interfaces/Time",
+          "description": ""
+        },
+        {
+          "name": "code",
+          "type": "int64",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "TokenCommon": {
+      "fields": [
+        {
+          "name": "source",
+          "type": "string",
+          "description": "来源标识，不能为空"
+        },
+        {
+          "name": "token",
+          "type": "string",
+          "description": "令牌，可为空"
+        }
+      ],
+      "constants": {}
+    },
+    "TouchState": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "MessageHeader",
+          "description": ""
+        },
+        {
+          "name": "sensor_id",
+          "type": "uint8",
+          "description": ""
+        },
+        {
+          "name": "event_type",
+          "type": "uint8",
+          "description": ""
+        }
+      ],
+      "constants": {
+        "TOUCH_EVENT_NONE": 0,
+        "TOUCH_EVENT_SINGLE_CLICK": 1,
+        "TOUCH_EVENT_DOUBLE_CLICK": 2,
+        "TOUCH_EVENT_TRIPLE_CLICK": 3,
+        "TOUCH_EVENT_QUADRUPLE_CLICK": 4,
+        "TOUCH_EVENT_QUINTUPLE_CLICK": 5,
+        "TOUCH_EVENT_SEXTUPLE_CLICK": 6,
+        "TOUCH_EVENT_MULTI_CLICK": 7,
+        "TOUCH_EVENT_SLIDE_LEFT": 8,
+        "TOUCH_EVENT_SLIDE_RIGHT": 9
+      }
+    },
+    "TtsPriorityLevel": {
+      "fields": [
+        {
+          "name": "value",
+          "type": "uint8",
+          "description": ""
+        }
+      ],
+      "constants": {
+        "UNKNOWN": 0,
+        "BACKGROUND_L1": 1,
+        "SERVICE_L2": 2,
+        "MISSION_L4": 4,
+        "INTERACTION_L6": 6,
+        "WARNING_L8": 8,
+        "SAFETY_L10": 10
+      }
+    },
+    "CaptureJpegImage.Request": {
+      "fields": [
+        {
+          "name": "request",
+          "type": "CommonRequest",
+          "description": ""
+        },
+        {
+          "name": "camera_id",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "timeout_ms",
+          "type": "uint32",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "CaptureJpegImage.Response": {
+      "fields": [
+        {
+          "name": "response",
+          "type": "CommonResponse",
+          "description": ""
+        },
+        {
+          "name": "jpeg",
+          "type": "JpegImage",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "GetCurrentInputSource.Request": {
+      "fields": [
+        {
+          "name": "request",
+          "type": "CommonRequest",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "GetCurrentInputSource.Response": {
+      "fields": [
+        {
+          "name": "response",
+          "type": "CommonTaskResponse",
+          "description": ""
+        },
+        {
+          "name": "input_source",
+          "type": "McInputSource",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "GetMcAction.Request": {
+      "fields": [
+        {
+          "name": "request",
+          "type": "CommonRequest",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "GetMcAction.Response": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "ResponseHeader",
+          "description": ""
+        },
+        {
+          "name": "info",
+          "type": "McActionInfo",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "GetMute.Request": {
+      "fields": [
+        {
+          "name": "request",
+          "type": "CommonRequest",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "GetMute.Response": {
+      "fields": [
+        {
+          "name": "response",
+          "type": "CommonResponse",
+          "description": ""
+        },
+        {
+          "name": "is_mute",
+          "type": "bool",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "GetVolume.Request": {
+      "fields": [
+        {
+          "name": "request",
+          "type": "CommonRequest",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "GetVolume.Response": {
+      "fields": [
+        {
+          "name": "response",
+          "type": "CommonResponse",
+          "description": ""
+        },
+        {
+          "name": "audio_volume",
+          "type": "uint32",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "LedStripCommand.Request": {
+      "fields": [
+        {
+          "name": "request",
+          "type": "CommonRequest",
+          "description": ""
+        },
+        {
+          "name": "led_strip_mode",
+          "type": "uint8",
+          "description": ""
+        },
+        {
+          "name": "r",
+          "type": "uint8",
+          "description": ""
+        },
+        {
+          "name": "g",
+          "type": "uint8",
+          "description": ""
+        },
+        {
+          "name": "b",
+          "type": "uint8",
+          "description": ""
+        },
+        {
+          "name": "period",
+          "type": "uint16",
+          "description": ""
+        }
+      ],
+      "constants": {
+        "LED_ALL_OFF": 0,
+        "LED_GREEN_FLOW": 1,
+        "LED_RAINBOW": 2,
+        "LED_DANCING": 3,
+        "LED_TWINKLE": 4,
+        "LED_TAIL_INCREASE": 5,
+        "LED_TAIL_DECREASE": 6,
+        "LED_FOUR_TO_TWO_LEGS": 7,
+        "LED_TWO_TO_FOUR_LEGS": 8,
+        "LED_START_UP": 9,
+        "LED_DISPLAY_CHARGING": 10,
+        "LED_DISPLAY_FAULT": 11,
+        "LED_DISPLAY_25_LOW_BATTERY": 12,
+        "LED_DISPLAY_15_LOW_BATTERY": 13,
+        "LED_DISPLAY_POWER_OFF": 14,
+        "LED_DISPLAY_POWER_ON": 15,
+        "LED_WHITE_FLOW": 16,
+        "LED_WHITE_ON": 17,
+        "LED_DISPLAY_25_LOW_TRANSFORM": 18,
+        "LED_DISPLAY_15_LOW_TRANSFORM": 19,
+        "LED_WHITE_BREATH": 20,
+        "LED_CUSTOM_BREATH": 254,
+        "LED_CUSTOM_BLINK": 255
+      }
+    },
+    "LedStripCommand.Response": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "CommonResponse",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "PlayAudioFile.Request": {
+      "fields": [
+        {
+          "name": "request",
+          "type": "CommonRequest",
+          "description": ""
+        },
+        {
+          "name": "file",
+          "type": "AudioFile",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "PlayAudioFile.Response": {
+      "fields": [
+        {
+          "name": "response",
+          "type": "CommonResponse",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "PlayEmotion.Request": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "CommonRequest",
+          "description": ""
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "emotion_ids",
+          "type": "int32[]",
+          "description": ""
+        },
+        {
+          "name": "file_paths",
+          "type": "string[]",
+          "description": ""
+        },
+        {
+          "name": "priority",
+          "type": "int32",
+          "description": ""
+        },
+        {
+          "name": "loop_count",
+          "type": "int32",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "PlayEmotion.Response": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "CommonResponse",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "PlayTts.Request": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "CommonRequest",
+          "description": ""
+        },
+        {
+          "name": "tts_req",
+          "type": "PlayTtsRequest",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "PlayTts.Response": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "CommonResponse",
+          "description": ""
+        },
+        {
+          "name": "tts_resp",
+          "type": "PlayTtsResponse",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "SetMcAction.Request": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "RequestHeader",
+          "description": ""
+        },
+        {
+          "name": "source",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "command",
+          "type": "McActionCommand",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "SetMcAction.Response": {
+      "fields": [
+        {
+          "name": "response",
+          "type": "CommonTaskResponse",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "SetMcInputSource.Request": {
+      "fields": [
+        {
+          "name": "request",
+          "type": "CommonRequest",
+          "description": ""
+        },
+        {
+          "name": "action",
+          "type": "McInputAction",
+          "description": "ADD MODIFY DELETE DISABLE ENABLE"
+        },
+        {
+          "name": "input_source",
+          "type": "McInputSource",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "SetMcInputSource.Response": {
+      "fields": [
+        {
+          "name": "response",
+          "type": "CommonTaskResponse",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "SetMcMotion.Request": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "RequestHeader",
+          "description": ""
+        },
+        {
+          "name": "source",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "type",
+          "type": "int32",
+          "description": ""
+        },
+        {
+          "name": "motion",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "model",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "resource",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "interrupt",
+          "type": "bool",
+          "description": ""
+        },
+        {
+          "name": "operation",
+          "type": "int32",
+          "description": ""
+        }
+      ],
+      "constants": {
+        "MIMIC_QY": 1,
+        "MIMIC_LC": 2,
+        "PRELOAD": 1,
+        "EXECUTION": 2
+      }
+    },
+    "SetMcMotion.Response": {
+      "fields": [
+        {
+          "name": "response",
+          "type": "CommonTaskResponse",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "SetMcPresetMotion.Request": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "RequestHeader",
+          "description": ""
+        },
+        {
+          "name": "source",
+          "type": "string",
+          "description": ""
+        },
+        {
+          "name": "area",
+          "type": "McControlArea",
+          "description": ""
+        },
+        {
+          "name": "motion",
+          "type": "McPresetMotion",
+          "description": ""
+        },
+        {
+          "name": "interrupt",
+          "type": "bool",
+          "description": ""
+        },
+        {
+          "name": "ani_path",
+          "type": "string",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "SetMcPresetMotion.Response": {
+      "fields": [
+        {
+          "name": "response",
+          "type": "CommonTaskResponse",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "SetMute.Request": {
+      "fields": [
+        {
+          "name": "request",
+          "type": "CommonRequest",
+          "description": ""
+        },
+        {
+          "name": "is_mute",
+          "type": "bool",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "SetMute.Response": {
+      "fields": [
+        {
+          "name": "response",
+          "type": "CommonResponse",
+          "description": ""
+        },
+        {
+          "name": "is_mute",
+          "type": "bool",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "SetNeckLight.Request": {
+      "fields": [
+        {
+          "name": "request",
+          "type": "CommonRequest",
+          "description": ""
+        },
+        {
+          "name": "enable",
+          "type": "bool",
+          "description": ""
+        },
+        {
+          "name": "brightness",
+          "type": "uint8",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "SetNeckLight.Response": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "CommonResponse",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "SetServo.Request": {
+      "fields": [
+        {
+          "name": "request",
+          "type": "CommonRequest",
+          "description": ""
+        },
+        {
+          "name": "position",
+          "type": "uint8",
+          "description": ""
+        },
+        {
+          "name": "speed",
+          "type": "uint16",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "SetServo.Response": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "CommonResponse",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "SetVolume.Request": {
+      "fields": [
+        {
+          "name": "request",
+          "type": "CommonRequest",
+          "description": ""
+        },
+        {
+          "name": "audio_volume",
+          "type": "uint32",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "SetVolume.Response": {
+      "fields": [
+        {
+          "name": "response",
+          "type": "CommonResponse",
+          "description": ""
+        },
+        {
+          "name": "audio_volume",
+          "type": "uint32",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "ShutdownTask.Request": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "CommonRequest",
+          "description": ""
+        },
+        {
+          "name": "token",
+          "type": "TokenCommon",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "ShutdownTask.Response": {
+      "fields": [
+        {
+          "name": "header",
+          "type": "CommonResponse",
+          "description": ""
+        }
+      ],
+      "constants": {}
+    },
+    "builtin_interfaces/Time": {
+      "fields": [
+        {
+          "name": "sec",
+          "type": "int32"
+        },
+        {
+          "name": "nanosec",
+          "type": "uint32"
+        }
+      ],
+      "constants": {}
+    }
+  },
+  "joints": [
+    {
+      "name": "FL_HIP_ROLL_Joint",
+      "minimum": -0.4712,
+      "maximum": 0.4712,
+      "max_effort": 60.0,
+      "upper": true
+    },
+    {
+      "name": "FL_HIP_PITCH_Joint",
+      "minimum": -1.2217,
+      "maximum": 4.3633,
+      "max_effort": 60.0,
+      "upper": true
+    },
+    {
+      "name": "FL_KNEE_Joint",
+      "minimum": -2.618,
+      "maximum": 2.618,
+      "max_effort": 60.0,
+      "upper": true
+    },
+    {
+      "name": "FR_HIP_ROLL_Joint",
+      "minimum": -0.4712,
+      "maximum": 0.4712,
+      "max_effort": 60.0,
+      "upper": true
+    },
+    {
+      "name": "FR_HIP_PITCH_Joint",
+      "minimum": -1.2217,
+      "maximum": 4.3633,
+      "max_effort": 60.0,
+      "upper": true
+    },
+    {
+      "name": "FR_KNEE_Joint",
+      "minimum": -2.618,
+      "maximum": 2.618,
+      "max_effort": 60.0,
+      "upper": true
+    },
+    {
+      "name": "RL_HIP_ROLL_Joint",
+      "minimum": -1.5708,
+      "maximum": 1.5708,
+      "max_effort": 60.0,
+      "upper": false
+    },
+    {
+      "name": "RL_HIP_PITCH_Joint",
+      "minimum": 0.0,
+      "maximum": 3.1416,
+      "max_effort": 60.0,
+      "upper": false
+    },
+    {
+      "name": "RL_KNEE_Joint",
+      "minimum": -2.618,
+      "maximum": -0.1745,
+      "max_effort": 60.0,
+      "upper": false
+    },
+    {
+      "name": "RL_FOOT_Joint",
+      "minimum": -10.0,
+      "maximum": 10.0,
+      "max_effort": 60.0,
+      "upper": false
+    },
+    {
+      "name": "RR_HIP_ROLL_Joint",
+      "minimum": -1.5708,
+      "maximum": 1.5708,
+      "max_effort": 60.0,
+      "upper": false
+    },
+    {
+      "name": "RR_HIP_PITCH_Joint",
+      "minimum": 0.0,
+      "maximum": 3.1416,
+      "max_effort": 60.0,
+      "upper": false
+    },
+    {
+      "name": "RR_KNEE_Joint",
+      "minimum": -2.618,
+      "maximum": -0.1745,
+      "max_effort": 60.0,
+      "upper": false
+    },
+    {
+      "name": "RR_FOOT_Joint",
+      "minimum": -10.0,
+      "maximum": 10.0,
+      "max_effort": 60.0,
+      "upper": false
+    }
+  ],
+  "supplemental": {
+    "AudioCapture.msg": {
+      "source": "接口说明.md#PROTOCOL_START:AudioCapture",
+      "sha256": "c51b1bef37d5d02aec682aeefb18d6d15c2b3f8ecfc865192612d2b0d52a7d26"
+    },
+    "AudioPlayback.msg": {
+      "source": "接口说明.md#PROTOCOL_START:AudioPlayback",
+      "sha256": "6b8cb1fc71e1e26313970234c7cca1faf9dda7cee2e9136e2d1a0911ea421003"
+    }
+  }
+}

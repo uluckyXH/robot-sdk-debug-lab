@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "t1-sdk-lab"
+version = "0.1.0"
+description = "Standalone T1 robot SDK and React workbench"
+requires-python = ">=3.10,<3.11"
+dependencies = ["fastapi==0.115.12", "uvicorn[standard]==0.34.2", "numpy==1.26.4", "PyYAML==6.0.3"]
+
+[project.optional-dependencies]
+dev = ["pytest==8.3.5", "pytest-asyncio==0.26.0", "httpx==0.28.1", "ruff==0.14.4"]
+
+[project.scripts]
+t1-lab = "t1_lab.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"t1_lab._vendor" = ["sdk-schema.json", "action-names.json"]
+"t1_lab" = ["static/*", "static/assets/*"]
+"t1_lab.sdk" = ["*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+
+[tool.ruff]
+target-version = "py310"
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E9", "F63", "F7", "F82"]

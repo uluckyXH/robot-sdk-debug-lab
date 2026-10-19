@@ -1,0 +1,29 @@
+{
+  "source": "RoboWeave/bridge/src/roboweave_bridge",
+  "source_commit": "7364da0d07f2200e7a0ac8880ed310cb10f75957",
+  "sdk_commit": "fe2e186c867391ec78b301accdc91f0260ad0ff3",
+  "original_sha256": {
+    "storage/ledger.py": "ba4be0ecd73979a4f6236d6ab359384a42bd882cc0e32a05a1c8ae6659b9eb9c",
+    "contracts/catalog.py": "92792b33c8196c84842219b1d6e0739298e0997925d28b4c8e3bdffbe01b31c6",
+    "families/__init__.py": "236bb64f9a42f4d73b6996db88fd47438fc21a99fd512b806cad415a2be613b9",
+    "services/commands.py": "30a40fbb69c9b6eeee5632aef718908f8a722052c00a45ac13417e58fe68c5bf",
+    "services/motion_runtime.py": "87c9791a1395ce9244e6aad94aacce72be23b27ae579a851b06a47b766f7530b",
+    "adapters/ros/adapter.py": "9c947b6c2122acc66c2e8711d1e04f8163288bc1cb18690d6dbe9c16d1a2e28f",
+    "adapters/ros/service_discovery.py": "cc0211fc018ce1b06005c4fdb1aedd51d602d57b770e55e2e67de5b29162b841",
+    "adapters/ros/telemetry.py": "27ef24443b750d6fc580e759689b2f546dd2e6ffc664149b513ecba5f3140871",
+    "adapters/ros/details.py": "73c543374a0175d77890049b9addbfc542d4c0d3528302d7e08a8a88b648f930",
+    "adapters/ros/protocol.py": "90027425053f95571381af24883173ee3e3d0968cc58c89fe7e5bb1d8069af2a",
+    "resources.py": "f8ac7f85fa31d69c3b6bfde1ea705d6c97b5b95f6d74e14573e7ceab0c65260d",
+    "adapters/ros/loader.py": "c791ece58d50c801b6d6bf59c9f11817f0dd1a681a44705c070c8943bc36fe73",
+    "services/motion_policy.py": "7df795cff5ccf6f8247e8ca2f2a6ab7db430dfa8840a4ad1459b769eef4aca3a",
+    "services/motion_runtime_policy.py": "e567f2a9be24c58fe8b81540a758a904e3918c7a3588b1fff33d3cf01f6146a2",
+    "families/t1/motion.py": "975c9cae68cd39f3c2c1407323ac2cab409c68a507a7266c0f555e95c2fe8996",
+    "families/t1/__init__.py": "1014fbd2f3258e945b77b25b778dd51a235ed1aee96376668d67456a237b5113",
+    "adapters/ros/motion_protocol.py": "9843b2b66e7fbe58a72139516c5f6c184c5989e554497bee44367c801f84e4e0",
+    "adapters/audio.py": "ecea7bca33ee2094bca57a08c5e783c8fce2ec9036aadc208152969816b4b92b",
+    "services/t1_execution.py": "121aa1f53e457ee3410e0a9068356fc9416d65f8318173d6aecc51f41be645b4",
+    "bootstrap/config.py": "d014474f3c436d55117ec6491219a6ead4b435b08c7331cabab2fc7013959710",
+    "sdk-schema.json": "63d230f0c432dd220113b5d97cbeb034bc388f3ce2f1cfe53a187e5d0cf2b0c3",
+    "action-names.json": "ff33a3eb1cbc728754bd9c0c0323f4be1b9a95ce4eeaa0ef68229cc6afc4ee46"
+  }
+}

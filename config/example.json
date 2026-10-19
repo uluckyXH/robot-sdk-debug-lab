@@ -1,0 +1,14 @@
+{
+  "name": "T1 · 开发机器人",
+  "robot_ip": "192.0.2.1",
+  "ros_domain_id": 0,
+  "read_only": false,
+  "sdk_prefix": "runtime/t1/aimdk_msgs",
+  "dds_profile": "config/fastdds.xml",
+  "data_dir": "data",
+  "rtsp_port": 2554,
+  "video_fps": 15,
+  "video_width": 1280,
+  "audio": {},
+  "motion": {}
+}
